@@ -45,6 +45,41 @@
         </div>
     </div>
 
+    <!-- Last news -->
+    <div class="last-news" id="last-news">
+        <div class="container">
+            <div class="row center-block">
+            
+                <div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12">
+                    <h2>Last News</h2>
+                </div>
+                
+                <div class="col-sm-12 col-xs-12">
+                    <?php
+                        $args = array(
+                            'post_type' => 'post',
+                            'category_name' => 'news',
+                            'posts_per_page' => 6,
+                            'order' => 'DESC',
+                            'orderby' => 'date'
+                        );
+
+                        $lastNews = new WP_Query( $args );
+
+                        if( $lastNews->have_posts() ) : while( $lastNews->have_posts() ) : $lastNews->the_post();
+                        
+                            get_template_part( 'parts/news.php' );
+
+                        endwhile;
+                        endif;
+
+                        wp_reset_postdata();
+                    ?>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- gallery -->
     <div class="gallery" id="gallery">
         <div class="container">
