@@ -13,9 +13,9 @@
 	
 	<!-- favicon -->
 	<link rel="shortcut icon" href="images/favicon.png" type="image/png">
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114x114-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72x72-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/apple-touch-icon-57x57-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?=get_stylesheet_directory_uri(); ?>/images/apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?=get_stylesheet_directory_uri(); ?>/images/apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?=get_stylesheet_directory_uri(); ?>/images/apple-touch-icon-57x57-precomposed.png">
 	
 	<!-- fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
