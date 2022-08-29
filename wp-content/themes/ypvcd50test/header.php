@@ -23,14 +23,14 @@
 	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
 
 	<!-- styles -->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" type="text/css" href="css/magnific-popup.min.css"/>
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="<?=get_stylesheet_directory_uri(); ?>/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="<?=get_stylesheet_directory_uri(); ?>/css/magnific-popup.min.css"/>
+	<link rel="stylesheet" type="text/css" href="<?=get_stylesheet_directory_uri(); ?>/css/font-awesome.min.css"/>
+	<link rel="stylesheet" type="text/css" href="<?=get_stylesheet_directory_uri(); ?>/css/style.css"/>
 
 	 <!-- Javascript libraries -->
-	<script type="text/javascript" src="js/modernizr.js"></script>
-	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="<?=get_stylesheet_directory_uri(); ?>/js/modernizr.js"></script>
+	<script type="text/javascript" src="<?=get_stylesheet_directory_uri(); ?>/js/jquery.min.js"></script>
 		
 	<!--[if IE]>
 		<script src="js/html5shiv.js"></script>

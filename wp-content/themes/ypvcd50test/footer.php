@@ -37,10 +37,10 @@
 	</div>
 	
 	<!-- javascript -->
-	<script src="js/plugins.js"></script>
-	<script src="js/smooth-scroll.js"></script>
-	<script src="js/jquery.countTo.js"></script>
-	<script src="js/particles.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src="<?=get_stylesheet_directory_uri(); ?>/js/plugins.js"></script>
+	<script src="<?=get_stylesheet_directory_uri(); ?>/js/smooth-scroll.js"></script>
+	<script src="<?=get_stylesheet_directory_uri(); ?>/js/jquery.countTo.js"></script>
+	<script src="<?=get_stylesheet_directory_uri(); ?>/js/particles.min.js"></script>
+	<script src="<?=get_stylesheet_directory_uri(); ?>/js/main.js"></script>
 </body>
 </html>
